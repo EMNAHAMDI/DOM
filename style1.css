@@ -1,0 +1,102 @@
+#icon {
+  width: 15%;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.a {
+  display: flex;
+}
+#cb {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  padding: auto;
+  margin: auto;
+}
+.doctor {
+  width: 15%;
+  height: auto;
+  border-radius: 10%;
+  background-color: turquoise;
+}
+.patient {
+  background-color: teal;
+}
+.black {
+  background-color: black;
+}
+#sv {
+  display: flex;
+}
+#sv h4 {
+  display: flex;
+  width: 50%;
+}
+#col {
+  color: aqua;
+}
+
+#about {
+  background-color: aquamarine;
+}
+#career {
+  background-color: aquamarine;
+}
+.description {
+  display: flex;
+
+  background-color: #e5faf8;
+}
+.description .left {
+  width: 50%;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.box-item {
+  background-color: #fff;
+  width: 200px;
+  height: 300px;
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+}
+.right {
+  display: flex;
+  gap: 20px;
+}
+#box-parent {
+  margin-top: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 85%;
+  height: 25%;
+}
+.fin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.btn {
+  background: #3d83df;
+}
